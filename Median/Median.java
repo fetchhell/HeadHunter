@@ -58,6 +58,7 @@ public class Median {
             N = input.length;
         }
         catch(IOException e) {
+            e.printStackTrace();
         }
         
         int[] rightAndLeftMedianElements = new int[2];
